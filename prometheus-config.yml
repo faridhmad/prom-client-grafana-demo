@@ -2,6 +2,6 @@ global:
   scrape_interval: 4s
 
 scrape_configs:
-  - job_name: prometheus
+  - job_name: 'node-app-metrics'
     static_configs:
-      - targets: ["192.168.100.42:8081"]
+      - targets: ['<your-machine-local-ip>:8081']  # Use your machine's public IP and port should point to your Node.js application
