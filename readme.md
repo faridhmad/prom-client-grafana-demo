@@ -39,7 +39,15 @@ This project demonstrates how to monitor a Node.js application using Prometheus 
    * Prometheus will be available at `http://localhost:9090`.
    * Grafana will be available at `http://localhost:3000`. (Default login: admin/admin)
 
-4. **Configure Grafana:**
+5. **Configure Prometheus:**
+   * **Important:**
+     * Find your machine's local public IP address (e.g., using `ipconfig` or `ifconfig`). 
+     * Replace `<your-machine-local-ip>` in `prometheus-config.yml` with your actual IP.
+
+   * Add Prometheus as a data source in Grafana.
+   * Import dashboards (you can find Node.js-specific dashboards in the Grafana community).
+
+6. **Configure Grafana:**
 
    * Add Prometheus as a data source in Grafana.
    * Import dashboards (you can find Node.js-specific dashboards in the Grafana community).
