@@ -35,9 +35,9 @@ This project demonstrates how to monitor a Node.js application using Prometheus 
 
 3. **Access the App:**
 
-   * Your Node.js app will be available at `http://localhost:8081`.
-   * Prometheus will be available at `http://localhost:9090`.
-   * Grafana will be available at `http://localhost:3000`. (Default login: admin/admin)
+   * Your Node.js app will be available at `http://<your-machine-local-ip>:8081`.
+   * Prometheus will be available at `http://<your-machine-local-ip>:9090`.
+   * Grafana will be available at `http://<your-machine-local-ip>:3000`. (Default login: admin/admin)
 
 5. **Configure Prometheus:**
    * **Important:**
