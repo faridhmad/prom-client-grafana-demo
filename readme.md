@@ -30,7 +30,7 @@ This project demonstrates how to monitor a Node.js application using Prometheus 
 2. **Run with Docker Compose:**
 
    ```bash
-   docker-compose up -d
+   docker-compose up --build
    ```
 
 3. **Access the App:**
